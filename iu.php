@@ -1,15 +1,15 @@
 <?php
 // Veri tanımlamak için $ işaretiyle başlıyoruz. bool, int, float, string... (C# ile benzer)
 /*$age = 20;
-$name = "Kaan";
+$name = "Berkay";
 var_dump($age);
 var_dump($name);
 strlen($name);
 */
 /*
-$kaan_age = 17;
-if ($kaan_age < 20){
-	echo "you can't enter the pub";
+$berkay_age = 17;
+if ($berkay_age < 20){
+	echo "you can't enter here!";
 }
 */
 /*
@@ -44,41 +44,38 @@ echo "This rectangle's area is $area <br/>";
 */
 /*
 $x = 16;
-$y = "Kaan";
+$y = "Berkay";
 var_dump($x);
 var_dump($y)
 */
 
-$x = "Kaan";
-$y = "Özcan";
+$x = "Berkay";
+$y = "Korkut";
 echo "$x, $y";
 echo "<br/>";
 echo $x. $y;
 echo "<br/> ";
-echo "Kaan"." ". "Özcan";
+echo "Berkay"." ". "Korkut";
 echo "<br/>";
 
 define("pi", 3.14);
 echo "<br/>";
 echo pi ;
 #pi = 4;
-/*
-Bugün
-2024'ün
-ikinci
-günü
-*/
+
+
+
 const g = 9.8;
 //ini_set("display_errors",0);
 //error_reporting(0);
 echo g;
 //echo $z; 
-//$z = "Zeki";
+//$z = "Aria";
 /*
 echo "<br/>";
 $a = "isim";
 echo $a. "<br/>";
-$$a = "Kaan";
+$$a = "Jack";
 echo $$a. "<br/>" ; 
 $sayi = (int)5  ;
 $sayi = "Zeki" ;
@@ -97,7 +94,7 @@ echo $dizi[0]."";
 //echo $dizi[-1]."";
 $dizi2 = array("kapi" => 4,
                 3 => 5,
-			    "Zeki" => "mürekkep"  );
+			    "Furkan" => "mürekkep"  );
 				print_r ($dizi2);
 
 				
@@ -129,7 +126,7 @@ print_r($h);
 print_r(array_change_key_case($dizi, CASE_UPPER));
 print_r(array_change_key_case($dizi2, CASE_UPPER));
 /*$c = 6;
-$c = "Kaan";
+$c = "Berkay";
 echo $c;
 echo "<br/>";
 var_dump($c);
@@ -149,5 +146,6 @@ function cube($n){
  	
 
 ?>
+
 
 
